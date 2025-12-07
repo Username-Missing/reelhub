@@ -148,3 +148,27 @@ Track:
 	•	engagement
 	•	best performing topics
 and regenerate optimized content.
+
+LAYOUT
+ai-reels-automation/
+├── README.md
+├── .gitignore
+├── workflows/
+│   ├── video-agent.json
+│   ├── veo-agent.json
+│   ├── meta-posting-agent.json
+│   └── orchestrator.json          # (later)
+├── docs/
+│   ├── architecture.md
+│   ├── veo-notes.md
+│   └── meta-setup.md
+├── scripts/
+│   └── examples/                  # later: python helpers, test scripts
+├── env.example
+└── assets/
+    ├── screenshots/
+    │   ├── n8n-video-agent.png
+    │   ├── n8n-veo-loop.png
+    │   └── n8n-meta-agent.png
+    └── diagrams/
+        └── architecture.png
